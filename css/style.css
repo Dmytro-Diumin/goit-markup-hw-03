@@ -5,11 +5,18 @@
   --secondary-white-color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
 ul {
+  margin: 0;
   padding: 0;
 }
 
@@ -27,8 +34,6 @@ body {
   padding-right: 15px;
   outline: 1px solid red;
 }
-
-
 
 .list {
   list-style: none;
@@ -53,9 +58,9 @@ body {
   line-height: 1.1;
   color: #000000;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
-  padding: 24px 0;
-  display: block;
 }
 
 .header-list {
@@ -127,8 +132,15 @@ body {
   background-color: #2f303a;
 }
 
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .title {
-  padding: 120px 0;
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -141,13 +153,9 @@ body {
   color: var(--secondary-white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 10px 32px;
   cursor: pointer;
 }
-
-.hero {
-  height: 600px;
-}
-
 
 /* особливості */
 
@@ -169,15 +177,33 @@ body {
   margin: -1px;
 }
 
+.features-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  display: flex;
+}
+
+.features-item {
+  width: 270px;
+  height: 98px;
+}
+
+.features-item:not(:first-child) {
+  margin-left: 30px;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  padding-bottom: 10px;
+  display: flex;
 }
 
 .features-text {
+  width: 270px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -192,6 +218,17 @@ body {
   line-height: 1.1;
   text-align: center;
   color: var(--secondary-text-color);
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.classes-list {
+  padding-bottom: 120px;
+  display: flex;
+}
+
+.classes-item:not(:first-child) {
+  margin-left: 30px;
 }
 
 /* наша команда */
@@ -206,6 +243,13 @@ body {
   line-height: 1.1;
   text-align: center;
   color: var(--secondary-text-color);
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.team-list {
+  padding-bottom: 94px;
+  display: flex;
 }
 
 .our-team {
@@ -216,6 +260,9 @@ body {
 
 .team-item {
   background-color: var(--secondary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .text {
@@ -226,7 +273,6 @@ body {
 }
 
 /* footer */
-
 
 .footer {
   background-color: #2f303a;
@@ -250,7 +296,6 @@ body {
   color: var(--secondary-white-color);
 }
 
-
 /* портфоліо */
 
 .button-list {
@@ -258,7 +303,6 @@ body {
   list-style: none;
   display: flex;
   padding-left: 512px;
-  
 }
 
 .button-item {
