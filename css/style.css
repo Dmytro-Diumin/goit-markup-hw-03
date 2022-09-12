@@ -368,14 +368,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding-bottom: 64px;
+  padding-bottom: 94px;
 }
 
 .work-item {
   margin: 0 auto;
-}
-
-.work-item:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -388,4 +385,8 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   padding: 20px 24px;
+}
+
+.proj {
+margin-bottom: 0;
 }
