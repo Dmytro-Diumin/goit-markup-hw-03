@@ -184,6 +184,7 @@ body {
 
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list {
@@ -225,7 +226,6 @@ body {
 
 .classes-list {
   width: 1170px;
-  padding-bottom: 120px;
   display: flex;
   margin: 0 auto;
 }
@@ -246,13 +246,11 @@ body {
   line-height: 1.1;
   text-align: center;
   color: var(--secondary-text-color);
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
 .team-list {
   width: 1170px;
-  padding-bottom: 94px;
   display: flex;
   margin: 0 auto;
 }
@@ -326,11 +324,11 @@ body {
   list-style: none;
   display: flex;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .button-item {
   margin: 0 auto;
-  margin-bottom: 50px;
 }
 
 .button-item:not(:last-child) {
@@ -368,7 +366,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding-bottom: 94px;
 }
 
 .work-item {
@@ -378,6 +375,10 @@ body {
 
 .portfolio {
   text-decoration: none;
+}
+
+.project {
+  display: block;
 }
 
 .projects {
