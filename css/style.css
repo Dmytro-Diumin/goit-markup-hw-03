@@ -187,6 +187,10 @@ body {
   padding-bottom: 94px;
 }
 
+.clas {
+  padding-bottom: 0;
+}
+
 .features-list {
   margin: 0 auto;
   display: flex;
